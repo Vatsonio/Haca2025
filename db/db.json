@@ -21,6 +21,16 @@
       "verified": false,
       "createdAt": "2025-04-13T07:40:56.732Z",
       "updatedAt": "2025-04-13T07:40:56.732Z"
+    },
+    {
+      "id": "639c",
+      "fullName": "Ілля",
+      "email": "press39902@gmail.com",
+      "password": "$2b$10$Jo54UZfKnOUuMAj3Dwhk7edwz1tAJCP8A7vpwW.b.XXogf2qIFhFG",
+      "role": "Волонтер",
+      "verified": false,
+      "createdAt": "2025-04-14T15:59:19.181Z",
+      "updatedAt": "2025-04-14T15:59:19.181Z"
     }
   ]
 }
