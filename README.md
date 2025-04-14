@@ -1,58 +1,156 @@
-# Haca2025
+<!-- README.md -->
 
-https://www.figma.com/proto/eD1krVFM3ugW4bHS2FeCLv/HACA2025?node-id=0-1&t=I8nzvdSUKXt5Bf36-1
+<p align="center">
+  <img src="./public/banner.jpg" alt="Project Banner" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);" />
+</p>
 
-# React + TypeScript + Vite
+<h1 align="center">PETS</h1>
+<p align="center"><em>"Друзі, які завжди поруч"</em></p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://vitejs.dev/">
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="vite" />
+  </a>
+  <a href="https://reactjs.org/">
+    <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="react" />
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="typescript" />
+  </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="tailwind" />
+  </a>
+  <a href="https://shadcn.dev/">
+    <img src="https://img.shields.io/badge/shadcn-F43F5E?style=flat-square&logo=shadcn&logoColor=white" alt="shadcn" />
+  </a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🐾 Опис проєкту
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+PETS — це не просто сайт. Це спроба створити екосистему підтримки, де волонтери, притулки та просто небайдужі можуть об'єднатися, щоб допомогти тваринам, які постраждали через війну.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+Тут можна знайти нових друзів, прочитати реальні історії, допомогти з усиновленням або просто зробити маленьке добро. Ми віримо, що навіть одна врятована лапа — це вже перемога 🐕❤️
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+## 🛠️ Технології
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+- React + Vite
+- TypeScript
+- TailwindCSS
+- Shadcn UI
+- React Router DOM
+- Zod — валідація форм
+- React Hot Toast — нотифікації
+- json-server — мокова база для розробки
+
+---
+
+## ⚙️ Функціонал
+
+### 🔐 Аутентифікація
+
+- Реєстрація та вхід через Email/Password або Google
+- Відновлення паролю
+- Збереження токена в LocalStorage
+
+### 👤 Профіль користувача
+
+- Редагування профілю
+- Зміна паролю
+- Завантаження аватарки
+
+### 🧑‍🤝‍🧑 Ролі
+
+- Волонтер — створює оголошення, допомагає тваринам, спілкується з притулками
+- Притулок — керує заявками на усиновлення, створює оголошення про тварин
+
+### 📢 Оголошення
+
+- CRUD (створення, редагування, видалення, перегляд)
+- Фільтрація за ролями
+- Пошук по імені тварини, волонтеру, притулку
+- Додавання в "обране"
+
+### 🐶 Сторінка тварини
+
+- Детальна інформація
+- Відгуки та коментарі
+
+### 🏠 Сторінка притулку
+
+- Детальна інформація
+- Заявка на усиновлення
+- Коментарі, рейтинг
+
+### 📰 Блог
+
+- Новини, статті, корисні поради
+- Можливість додавати власні матеріали
+
+### ℹ️ Про нас
+
+- Історія проєкту
+- Команда
+- Партнери
+
+---
+
+## 📸 Скріншоти
+
+<p align="center">
+  <img src="image-2.png" width="60%" />
+  <img src="image-3.png" width="60%" />
+  <img src="image-4.png" width="60%" />
+  <img src="image-5.png" width="60%" />
+  <img src="image-8.png" width="60%" />
+  <img src="image-9.png" width="60%" />
+  <img src="image-10.png" width="60%" />
+  <img src="image-11.png" width="60%" />
+</p>
+
+---
+
+## 🚀 Як запустити проєкт
+
+> Потрібні встановлені pnpm та Node.js
+
+### 🔧 Кроки:
+
+# Встановлюємо pnpm
+
+npm install -g pnpm
+
+# Клонуємо репозиторій
+
+git clone https://github.com/Vatsonio/Haca2025.git
+
+# Переходимо в папку проєкту
+
+cd Haca2025
+
+# Встановлюємо залежності
+
+pnpm install
+
+# Запускаємо json-server (локальна БД)
+
+pnpm add -D json-server
+pnpm run server
+
+# Запускаємо застосунок
+
+pnpm run dev
+
+## 👥 Автори
+
+- [@Vatsonio Ігор](https://github.com/Vatsonio) — Fullstack
+- [@WinSoU Даніїл ](https://github.com/bushchakkkkkky) — Тімлід
+- [@SamLake Ілья ](https://github.com/sldjfngsldfnsldjfn) — UI/UX
+- [@RecognisesPainn Андрій](https://github.com/RecognizesPain) - Ідеї
+- [@bushchakk Євген](https://github.com/bushchakkkkkky) - Фронтенд
+  > Маєш ідеї або хочеш долучитись? Пиши нам — будемо раді!
