@@ -65,8 +65,8 @@ const ContactUs: React.FC = () => {
   const inputStyle: React.CSSProperties = {
     padding: '10px',
     fontFamily: 'Roboto, normal',
-    border: '1px solid Black', 
-    borderRadius: '20px', 
+    border: '1px solid Black',
+    borderRadius: '20px',
     fontSize: '14px',
     height: '40px',
   };
@@ -75,7 +75,7 @@ const ContactUs: React.FC = () => {
     padding: '10px',
     fontFamily: 'Roboto, normal',
     border: '1px solid Black',
-    borderRadius: '20px', 
+    borderRadius: '20px',
     fontSize: '14px',
     height: '40px',
   };
@@ -83,8 +83,8 @@ const ContactUs: React.FC = () => {
   const textareaStyle: React.CSSProperties = {
     padding: '10px',
     fontFamily: 'Roboto, normal',
-    border: '1px solid Black', 
-    borderRadius: '20px', 
+    border: '1px solid Black',
+    borderRadius: '20px',
     fontSize: '14px',
     height: '100px',
     resize: 'none',
@@ -126,7 +126,7 @@ const ContactUs: React.FC = () => {
         <div style={logoStyle}>DivasTeam</div>
         <h1 style={headerTitleStyle}>Зв'яжіться з нами</h1>
         <p style={headerTextStyle}>
-          Наші дружні команди будуть радий отримати від вас влучку.
+          Наші дружні команди будуть раді отримати від вас влучку.
         </p>
         <div className="space-y-4">
           <p style={contactInfoItemStyle}>
