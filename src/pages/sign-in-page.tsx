@@ -43,7 +43,7 @@ const SignInPage = () => {
       navigate('/');
     } catch (error) {
       console.error('Error during sign in:', error);
-      toast.error(`Error: ${error}`);
+      toast.error(`${error}`);
     }
   };
 

@@ -9,8 +9,9 @@ const HeroSection = () => {
         loop
         muted
         playsInline
+        disablePictureInPicture
       >
-        <source src="./BG3.mp4" />
+        <source src="./public/Media/BG3.mp4" />
         Your browser does not support the video tag.
       </video>
 
