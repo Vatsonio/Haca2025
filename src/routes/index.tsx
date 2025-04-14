@@ -1,5 +1,5 @@
 import { Layout, ProfileLayout } from '@/components';
-import { HomePage, ProfilePage, SignInPage, SignUpPage } from '@/pages';
+import { HomePage, ProfilePage, SignInPage, SignUpPage, VolunteerProfilePage } from '@/pages';
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -23,8 +23,10 @@ const router = createBrowserRouter(
       <Route path="*" element={<h1>404 Page...</h1>} />
       <Route path="/login" element={<SignInPage />} />
       <Route path="/register" element={<SignUpPage />} />
+      <Route path="/volunteer-profile" element={<VolunteerProfilePage />} />
     </>
   )
 );
 
 export default router;
+
