@@ -118,11 +118,21 @@ PETS — це не просто сайт. Це спроба створити е�
 
 ---
 
+## FIGMA
+
+<a href="https://www.figma.com/design/eD1krVFM3ugW4bHS2FeCLv/HACA2025?node-id=10-1872&t=gk3NVy3kz2YHLyIn-1">Project figma<a/>
+
+## Перед запуском потрібно завантажити та добавити відео у папку <b><br/>"./public/Media/BG3.mp4"<b/>
+
+<a href="https://drive.google.com/file/d/1NEqkSVsHEeOZ8rJQqObWB9g98_r3S-jO/view?usp=sharing">Google Drive(video)<a/>
+
 ## 🚀 Як запустити проєкт
 
+```bash
 > Потрібні встановлені pnpm та Node.js
+```
 
-### 🔧 Кроки:
+## 🔧 Кроки:
 
 # Встановлюємо pnpm
 
