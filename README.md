@@ -4,22 +4,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-  <style>
-    h1, h2, h3, h4, h5, h6, p {
-      font-family: 'Satisfy', cursive;
-    }
-    .center {
-      text-align: center;
-    }
-    .title {
-      font-size: 3rem;
-      color: #f3f3f3;
-    }
-    .subtitle {
-      font-size: 1.5rem;
-      color: #f3f3f3;
-    }
-  </style>
 </head>
 
 <br />
