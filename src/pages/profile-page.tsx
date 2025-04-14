@@ -167,6 +167,12 @@ const ProfilePage = () => {
       >
         Зберегти зміни
       </button>
+      <button
+        className="px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition ml-4"
+        onClick={() => window.location.href = '/volunteer-profile'}
+      >
+        Переглянути профіль
+      </button>
 
       <div className="flex flex-row mx-4 justify-between items-center mt-10">
         <h3 className="text-lg font-bold">Підтвердити аккаунт</h3>

@@ -61,7 +61,7 @@ const NavBar = () => {
               {[
                 { to: '/news', text: 'Новини та блог' },
                 { to: '/announcement', text: 'Всі оголошення' },
-                { to: '/lotteries', text: 'Розіграші' },
+                { to: '/about-us', text: 'Про нас' },
                 { to: '/contact', text: 'Контактна форма' },
               ].map(({ to, text }) => (
                 <Link

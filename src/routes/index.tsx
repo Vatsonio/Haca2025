@@ -1,5 +1,14 @@
 import { Layout, ProfileLayout } from '@/components';
-import { HomePage, ProfilePage, SignInPage, SignUpPage, ContactPage, AboutUs } from '@/pages';
+import {
+  HomePage,
+  ProfilePage,
+  SignInPage,
+  SignUpPage,
+  ContactPage,
+  AboutUs,
+  NewsPage,
+  VolunteerProfilePage,
+} from '@/pages';
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -11,7 +20,7 @@ const router = createBrowserRouter(
     <>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route path="/news" element={<Layout />} />
+        <Route path="/news" element={<NewsPage />} />
         <Route path="/announcement" element={<Layout />} />
         <Route path="/lotteries" element={<Layout />} />
         <Route path="/donates" element={<Layout />} />
@@ -25,6 +34,7 @@ const router = createBrowserRouter(
       <Route path="/register" element={<SignUpPage />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/volunteer-profile" element={<VolunteerProfilePage />} />
     </>
   )
 );

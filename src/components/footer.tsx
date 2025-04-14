@@ -22,17 +22,11 @@ const Footer = () => {
             <Link to="/announcement" className="hover:underline">
               Всі оголошення
             </Link>
-            <Link to="/lotteries" className="hover:underline">
-              Розіграші
-            </Link>
-            <Link to="/donates" className="hover:underline">
-              Сторінка донатів
-            </Link>
-            <Link to="/about" className="hover:underline">
-              Наша історія
+            <Link to="/about-us" className="hover:underline">
+              Про нас
             </Link>
             <Link to="/contact" className="hover:underline">
-              Контакти
+              Контактна форма
             </Link>
           </div>
           <div className="flex flex-row gap-4 mt-10 md:mt-0">
