@@ -16,3 +16,4 @@ export { default as AuthButtons } from './auth-btns';
 export { default as ProfileBtn } from './profile-btn';
 export { default as FieldComponent } from './field-component';
 export { default as ContactUs } from './contact-us';
+export { default as AboutCompany } from './about-company';

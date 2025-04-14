@@ -1,5 +1,5 @@
 import { Layout, ProfileLayout } from '@/components';
-import { HomePage, ProfilePage, SignInPage, SignUpPage, ContactPage } from '@/pages';
+import { HomePage, ProfilePage, SignInPage, SignUpPage, ContactPage, AboutUs } from '@/pages';
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -24,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="/login" element={<SignInPage />} />
       <Route path="/register" element={<SignUpPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/about-us" element={<AboutUs />} />
     </>
   )
 );
