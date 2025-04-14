@@ -1,9 +1,5 @@
 <!-- README.md -->
 
-<p align="center">
-  <img src="./public/banner.jpg" alt="Project Banner" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);" />
-</p>
-
 <h1 align="center">PETS</h1>
 <p align="center"><em>"Друзі, які завжди поруч"</em></p>
 
@@ -103,14 +99,21 @@ PETS — це не просто сайт. Це спроба створити е�
 ## 📸 Скріншоти
 
 <p align="center">
-  <img src="image-2.png" width="60%" />
-  <img src="image-3.png" width="60%" />
-  <img src="image-4.png" width="60%" />
-  <img src="image-5.png" width="60%" />
-  <img src="image-8.png" width="60%" />
-  <img src="image-9.png" width="60%" />
-  <img src="image-10.png" width="60%" />
-  <img src="image-11.png" width="60%" />
+  <img src="/readmeimg/main.png" width="60%" />
+  <img src="/readmeimg/about.png" width="60%" />
+  <img src="/readmeimg/add advetrisment.png" width="60%" />
+  <img src="/readmeimg/advetrisment profile.png" width="60%" />
+  <img src="/readmeimg/all advertisment.png" width="60%" />
+  <img src="/readmeimg/contact.png" width="60%" />
+  <img src="/readmeimg/favoutites.png" width="60%" />
+  <img src="/readmeimg/news.png" width="60%" />
+  <img src="/readmeimg/profile.png" width="60%" />
+  <img src="/readmeimg/reg.png" width="60%" />
+  <img src="/readmeimg/shelter profile.png" width="60%" />
+  <img src="/readmeimg/sing up.png" width="60%" />
+  <img src="/readmeimg/volonteer profile.png" width="60%" />
+  <img src="/readmeimg/when log in.png" width="60%" />
+  <img src="/readmeimg/yoursadvertisment.png" width="60%" />
 </p>
 
 ---
@@ -123,24 +126,34 @@ PETS — це не просто сайт. Це спроба створити е�
 
 # Встановлюємо pnpm
 
+```bash
 npm install -g pnpm
+```
 
 # Клонуємо репозиторій
 
+```bash
 git clone https://github.com/Vatsonio/Haca2025.git
+```
 
 # Переходимо в папку проєкту
 
+```bash
 cd Haca2025
+```
 
 # Встановлюємо залежності
 
+```bash
 pnpm install
+```
 
 # Запускаємо json-server (локальна БД)
 
+```bash
 pnpm add -D json-server
 pnpm run server
+```
 
 # Запускаємо застосунок
 
@@ -153,4 +166,5 @@ pnpm run dev
 - [@SamLake Ілья ](https://github.com/sldjfngsldfnsldjfn) — UI/UX
 - [@RecognisesPainn Андрій](https://github.com/RecognizesPain) - Ідеї
 - [@bushchakk Євген](https://github.com/bushchakkkkkky) - Фронтенд
+
   > Маєш ідеї або хочеш долучитись? Пиши нам — будемо раді!
