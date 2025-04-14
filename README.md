@@ -99,21 +99,37 @@ PETS — це не просто сайт. Це спроба створити е�
 ## 📸 Скріншоти
 
 <p align="center">
-  <img src="/readmeimg/main.png" width="60%" />
-  <img src="/readmeimg/about.png" width="60%" />
-  <img src="/readmeimg/add advetrisment.png" width="60%" />
-  <img src="/readmeimg/advetrisment profile.png" width="60%" />
-  <img src="/readmeimg/all advertisment.png" width="60%" />
-  <img src="/readmeimg/contact.png" width="60%" />
-  <img src="/readmeimg/favoutites.png" width="60%" />
-  <img src="/readmeimg/news.png" width="60%" />
-  <img src="/readmeimg/profile.png" width="60%" />
-  <img src="/readmeimg/reg.png" width="60%" />
-  <img src="/readmeimg/shelter profile.png" width="60%" />
-  <img src="/readmeimg/sing up.png" width="60%" />
-  <img src="/readmeimg/volonteer profile.png" width="60%" />
-  <img src="/readmeimg/when log in.png" width="60%" />
-  <img src="/readmeimg/yoursadvertisment.png" width="60%" />
+  <a><b>Головна сторінка<b/><a/>
+  <img src="/readmeimg/main.png"/>
+  <a><b>Сторінка з створенням оголошення<b/><a/>
+  <img src="/readmeimg/add advetrisment.png"/>
+  <a><b>Сторінка оголошення <b/><a/>
+  <img src="/readmeimg/advetrisment profile.png"/>
+  <a><b>Сторінка з всіма оголошеннями<b/><a/>
+  <img src="/readmeimg/all advertisment.png"/>
+  <a><b>Сторінка з оголошеннями створеними певним користувачем<b/><a/>
+  <img src="/readmeimg/yoursadvertisment.png"/>
+  <a><b>Сторінка з реєстрацією<b/><a/>
+  <img src="/readmeimg/reg.png"/>
+  <a><b>Сторінка з входом (google auth працює!)<b/><a/>
+  <img src="/readmeimg/sing up.png"/>
+  <a><b>Сторінка з профілем користувача<b/><a/>
+  <img src="/readmeimg/profile.png"/>
+  <a><b>Сторінка з профілем притулка<b/><a/>
+  <img src="/readmeimg/shelter profile.png"/>
+  <a><b>Сторінка з профілем волонетра<b/><a/>
+  <img src="/readmeimg/volonteer profile.png"/>
+  <a><b>Сторінка якщо користуач залогінений<b/><a/>
+  <img src="/readmeimg/when log in.png"/>
+  <a><b>Сторінка з обраними оголошеннями<b/><a/>
+  <img src="/readmeimg/favoutites.png"/>
+  <a><b>Сторінка з новинами<b/><a/>
+  <img src="/readmeimg/news.png"/>
+  <a><b>Сторінка зв'яжіться з нами<b/><a/>
+  <img src="/readmeimg/contact.png"/>
+  <a><b>Сторінка про нас<b/><a/>
+  <img src="/readmeimg/about.png"/>
+
 </p>
 
 ---
